@@ -1,0 +1,20 @@
+data/mod/
+[
+  {
+    "type": "MOD_INFO",
+    "id": "Aftershock_no_slots",
+    "name": "Aftershock No Bionic Slots",
+    "authors": [ "Chris Pikula" ],
+    "maintainers": [ "Chris Pikula" ],
+    "description": "Disable Aftershock Bionic Slots",
+    "version": "Update 08/16/2022",
+    "category": "content",
+    "dependencies": [ "dda", "aftershock" ]
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "CBM_SLOTS_ENABLED",
+    "stype": "bool",
+    "value": false
+  }
+]
